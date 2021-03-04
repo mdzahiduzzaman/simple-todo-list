@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/et_add_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        style="@style/SelectionHandleStyle"
+        android:textCursorDrawable="@drawable/custom_line_cursor"
+        android:hint="@string/hint"
+        android:background="@null"
+        android:textSize="16sp"
+        android:textColorHighlight="@color/light_blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:autofillHints="Make a new list" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_add_item"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:enabled="false"
+        android:background="@android:color/transparent"
+        android:text="@string/save"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>

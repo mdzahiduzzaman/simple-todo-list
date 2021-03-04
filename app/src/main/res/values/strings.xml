@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Things To Do</string>
+    <string name="header">My List</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="hint">What to do?</string>
+    <string name="save">Save</string>
+</resources>

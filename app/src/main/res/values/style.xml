@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+
+    <style name="SelectionHandleStyle">
+        <item name="android:textSelectHandle">@drawable/ic_text_select_handle</item>
+        <item name="android:textSelectHandleLeft">@drawable/ic_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/ic_text_select_handle_right</item>
+    </style>
+
+</resources>
